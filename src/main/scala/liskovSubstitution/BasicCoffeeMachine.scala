@@ -18,5 +18,5 @@ object Main extends App{
   val basic = new BasicCoffeeMachine()
   val premium = new PremiumCoffeeMachine
   premium.serveCoffee()
-  //basic.serveCoffee()
+  basic.serveCoffee()
 }
